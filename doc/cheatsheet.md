@@ -61,8 +61,6 @@ gh-ost \
 --max-load=Threads_running=25 \
 --critical-load=Threads_running=1000 \
 --chunk-size=1000 \
---throttle-control-replicas="myreplica.1.com,myreplica.2.com" \
---max-lag-millis=1500 \
 --user="gh-ost" \
 --password="123456" \
 --host=master.with.rbr.com \
